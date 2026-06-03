@@ -11,6 +11,11 @@ public class Artist {
     private String name;
     private String cover;
     private String description;
+    private String region;
+    private String style;
+    private String firstLetter;
+    private Integer status;
+    private Integer recommendOrder;
     @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createdAt;
 
@@ -25,6 +30,16 @@ public class Artist {
     public void setCover(String cover) { this.cover = cover; }
     public String getDescription() { return description; }
     public void setDescription(String description) { this.description = description; }
+    public String getRegion() { return region; }
+    public void setRegion(String region) { this.region = region; }
+    public String getStyle() { return style; }
+    public void setStyle(String style) { this.style = style; }
+    public String getFirstLetter() { return firstLetter; }
+    public void setFirstLetter(String firstLetter) { this.firstLetter = firstLetter; }
+    public Integer getStatus() { return status; }
+    public void setStatus(Integer status) { this.status = status; }
+    public Integer getRecommendOrder() { return recommendOrder; }
+    public void setRecommendOrder(Integer recommendOrder) { this.recommendOrder = recommendOrder; }
     public LocalDateTime getCreatedAt() { return createdAt; }
     public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
     public Long getSongCount() { return songCount; }
