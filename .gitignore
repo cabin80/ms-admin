@@ -1,1 +1,8 @@
-target/\n*.jar
+target/
+*.jar
+*.class
+.project
+.classpath
+.settings/
+.idea/
+*.iml
