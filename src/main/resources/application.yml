@@ -15,3 +15,10 @@ mybatis-plus:
     db-config:
       id-type: auto
       table-underline: true
+
+cos:
+  secret-id: ${COS_SECRET_ID:}
+  secret-key: ${COS_SECRET_KEY:}
+  region: ${COS_REGION:ap-shanghai}
+  bucket: ${COS_BUCKET:music01-1301769530}
+  base-url: ${COS_BASE_URL:https://music01-1301769530.cos.ap-shanghai.myqcloud.com}
